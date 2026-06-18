@@ -36,7 +36,7 @@ void hangman::random_hint(){
     }
 }
 void hangman::hint(){
-    cout<< "Do you want to i help you(y/n):";
+    cout<< "Do you want some help(y/n):";
     char y;
     cin>>y;
     if ( y == 'y'){
