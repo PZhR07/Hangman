@@ -28,8 +28,11 @@ void hangman::random_hint(){
     int random_hints = rand()%3;
     switch(random_hints){
         case 0:cout<<"position 1 is:"<<correct_word[0];
+                break;
         case 1:cout<<"position 2 is:"<<correct_word[1];
+                break;
         case 2:cout<<"position 3 is:"<<correct_word[2];
+                break;
     }
 }
 void hangman::hint(){
